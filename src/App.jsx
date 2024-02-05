@@ -41,9 +41,7 @@ function App() {
       >
         Search
       </button>
-      <p>
-        <strong>Definition:</strong>
-      </p>
+      <h4>Definition:</h4>
       {definition && <p>{definition}</p>}
     </div>
   );
